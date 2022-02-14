@@ -6,9 +6,8 @@
 - Open Eclipse 
    - File -> Import -> Existing Maven Project -> Navigate to the folder where you unzipped the zip
    - Select the right project
-- Choose the Spring Boot Application file (search for file with @SpringBootApplication)
+- Choose the AspireQACodeChallenge file (search for file with @AspireQACodeChallenge)
 - Right Click on the file and Run as Java Application
-- You are all Set
 
 #### Resources
 
