@@ -91,6 +91,9 @@ mvn clean install
       -Unable validate this feature in the given application
  
  ## 03 - Brief Description about class files
+  - Reports and Logs are maintaining using TestNg and ScreenShots captured for failed scenarios
+       - .\\test-output\\emailable-report.html
+  - Java class file files Information :
  ```
  baseClass.java  => Static browser instance creation
  
