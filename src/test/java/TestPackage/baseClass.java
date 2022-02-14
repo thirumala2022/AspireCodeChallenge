@@ -21,26 +21,30 @@ public class baseClass {
 		{
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
-			 File file = new File(".\\src\\test\\resources\\config.properties");
-			  
-				FileInputStream fileInput = null;
-				try {
-					fileInput = new FileInputStream(file);
-				} catch (FileNotFoundException e) {
-					e.printStackTrace();
-				}
-				 prop = new Properties();
-				
-				//load properties file
-				try {
-					prop.load(fileInput);
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
+			ReadPropertiesFile();
 			driver.get(prop.getProperty("URL"));
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 					
+		}
+		
+		public void ReadPropertiesFile() {
+			File file = new File(".\\src\\test\\resources\\config.properties");
+			  
+			FileInputStream fileInput = null;
+			try {
+				fileInput = new FileInputStream(file);
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
+			 prop = new Properties();
+			
+			//load properties file
+			try {
+				prop.load(fileInput);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 
 

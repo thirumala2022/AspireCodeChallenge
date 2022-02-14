@@ -5,7 +5,8 @@
     <classes>
       <class name="TestPackage.BusinessDetailsTest">
         <methods>
-          <include name="BusinessDetailsData"/>
+          <include name="BusinessRoleTest"/>
+          <include name="BusinessDetailsTest"/>
         </methods>
       </class> <!-- TestPackage.BusinessDetailsTest -->
     </classes>

@@ -42,7 +42,8 @@ public static Object[][] getTableArray(String FilePath, String SheetName) throws
 
 	   // you can write a function as well to get Column count
 
-	   int totalCols = 4;
+	   int totalCols =ExcelWSheet.getRow(1).getLastCellNum()-1;
+	   System.out.println("Total no of cols==="+totalCols);
 
 	   tabArray=new String[totalRows][totalCols];
 
@@ -51,7 +52,7 @@ public static Object[][] getTableArray(String FilePath, String SheetName) throws
 	   for (int i=startRow;i<=totalRows;i++, ci++) {           	   
 
 		  cj=0;
-
+		
 		  for (int j=startCol;j<=totalCols;j++, cj++){
 
 			   tabArray[ci][cj]=getCellData(i,j);

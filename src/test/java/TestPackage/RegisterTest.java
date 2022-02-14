@@ -53,20 +53,15 @@ public class RegisterTest extends baseClass {
 		Reporter.log("Click on Continue btn");
 		ob.ClickElement(ob.eltContinuebtn);
 		
+		ob.WaitForElementExists(ob.eltNewOTP);
 		Reporter.log("Enter Mobile OTP");
-		//ob.Sendtext(ob.eltOTP, "1234");
+		ob.EnterOTP(ob.eltNewOTP, "1234");
+		
+		ob.WaitForElementExists(ob.eltRoleSection);
+		String Details=ob.getInnerText(ob.eltRoleSection);
+		Assert.assertEquals(Details, prop.getProperty("DetailsPageMessage"));
+		
 	}
-//	
-//	@Test
-//	public void EmailVerification() {
-//		
-//		
-//		ob=new ObjectRepository(driver);
-//		ob.Sendtext(ob.eltEmail, "thirumala.kiran85@gmail.com");		
-//		ob.ClickElement(ob.eltNext);
-//		//ob.EnterOTP(ob.eltOTP, "123456");
-//	}
-	
 	
 	
 	@AfterTest
