@@ -32,7 +32,7 @@ mvn clean install
    - Selenium WebDriver
 ###### Project Type
    - Maven
-###### Disgn Pattern
+###### Design Pattern
    - Page Object Model (POM)
 ###### DataDriven
    - Apache POI (Excel)
