@@ -6,8 +6,10 @@
 - Open Eclipse 
    - File -> Import -> Existing Maven Project -> Navigate to the folder where you unzipped the zip
    - Select the right project
-- Choose the AspireQACodeChallenge file (search for file with @AspireQACodeChallenge)
-- Right Click on the file and Run as Java Application
+- Choose the AspireQACodeChallenge file
+- Right Click on the file and Run as Maven test
+-Other Aproaach to execute 
+
 
 #### Resources
 
