@@ -1,4 +1,130 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.123 s - in TestSuite
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 466.16 s <<< FAILURE! - in TestSuite
+BusinessRoleAditionalDetails(TestPackage.BusinessRoleUnitTest)  Time elapsed: 76.891 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='q-checkbox__bg absolute'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.BusinessRoleUnitTest.BusinessRoleAditionalDetails(BusinessRoleUnitTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='q-checkbox__bg absolute']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//div[@class='q-checkbox__bg absolute']}
+	at TestPackage.BusinessRoleUnitTest.BusinessRoleAditionalDetails(BusinessRoleUnitTest.java:43)
+
+BusinessDetailsTest1(TestPackage.BusinessDetailsTest)  Time elapsed: 60.651 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.BusinessDetailsTest.BuisunessRole(BusinessDetailsTest.java:85)
+	at TestPackage.BusinessDetailsTest.BusinessDetails(BusinessDetailsTest.java:40)
+	at TestPackage.BusinessDetailsTest.BusinessDetailsTest1(BusinessDetailsTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at TestPackage.BusinessDetailsTest.BuisunessRole(BusinessDetailsTest.java:85)
+	at TestPackage.BusinessDetailsTest.BusinessDetails(BusinessDetailsTest.java:40)
+	at TestPackage.BusinessDetailsTest.BusinessDetailsTest1(BusinessDetailsTest.java:34)
+
+BusinessRoleTest(TestPackage.BusinessDetailsTest)  Time elapsed: 60.587 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.BusinessDetailsTest.BuisunessRole(BusinessDetailsTest.java:85)
+	at TestPackage.BusinessDetailsTest.BusinessRoleTest(BusinessDetailsTest.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at TestPackage.BusinessDetailsTest.BuisunessRole(BusinessDetailsTest.java:85)
+	at TestPackage.BusinessDetailsTest.BusinessRoleTest(BusinessDetailsTest.java:27)
+
+LoginWithMobileNumValidation(TestPackage.LoginMobileTest)  Time elapsed: 60.639 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.LoginMobileTest.LoginWithMobileNumValidation(LoginMobileTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at TestPackage.LoginMobileTest.LoginWithMobileNumValidation(LoginMobileTest.java:24)
+
+LoginWithMobileNumValidation(TestPackage.LoginMobileTest)  Time elapsed: 60.629 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.LoginMobileTest.LoginWithMobileNumValidation(LoginMobileTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at TestPackage.LoginMobileTest.LoginWithMobileNumValidation(LoginMobileTest.java:24)
+
+RegisterNewEmailTest(TestPackage.RegisterTest)  Time elapsed: 40.425 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Register'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.RegisterTest.RegisterNewEmailTest(RegisterTest.java:38)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//span[text()='Register']}
+	at TestPackage.RegisterTest.RegisterNewEmailTest(RegisterTest.java:38)
+
+LoginWithMobileValidation(TestPackage.LoginEmailTest)  Time elapsed: 40.44 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.LoginEmailTest.LoginWithMobileValidation(LoginEmailTest.java:23)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at TestPackage.LoginEmailTest.LoginWithMobileValidation(LoginEmailTest.java:23)
+
+LoginWithMobileValidation(TestPackage.LoginEmailTest)  Time elapsed: 40.428 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)
+	at TestPackage.LoginEmailTest.LoginWithMobileValidation(LoginEmailTest.java:23)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d1cfaa0d4a2964900f7d1b00f972e2
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at TestPackage.LoginEmailTest.LoginWithMobileValidation(LoginEmailTest.java:23)
+

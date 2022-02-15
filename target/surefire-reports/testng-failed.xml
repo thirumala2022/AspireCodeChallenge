@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="TestPackage.RegisterTest">
+        <methods>
+          <include name="CleanTest"/>
+          <include name="screenShot"/>
+          <include name="RegisterNewEmailTest"/>
+        </methods>
+      </class> <!-- TestPackage.RegisterTest -->
+      <class name="TestPackage.BusinessDetailsTest">
+        <methods>
+          <include name="BusinessDetailsTest1"/>
+          <include name="screenShot"/>
+          <include name="BusinessRoleTest"/>
+          <include name="CleanTest"/>
+        </methods>
+      </class> <!-- TestPackage.BusinessDetailsTest -->
+      <class name="TestPackage.LoginMobileTest">
+        <methods>
+          <include name="CleanTest"/>
+          <include name="screenShot"/>
+          <include name="LoginWithMobileNumValidation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- TestPackage.LoginMobileTest -->
+      <class name="TestPackage.LoginEmailTest">
+        <methods>
+          <include name="LoginWithMobileValidation" invocation-numbers="0 1"/>
+          <include name="screenShot"/>
+          <include name="CleanTest"/>
+        </methods>
+      </class> <!-- TestPackage.LoginEmailTest -->
+      <class name="TestPackage.BusinessRoleUnitTest">
+        <methods>
+          <include name="CleanTest"/>
+          <include name="screenShot"/>
+          <include name="BusinessRoleAditionalDetails"/>
+        </methods>
+      </class> <!-- TestPackage.BusinessRoleUnitTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

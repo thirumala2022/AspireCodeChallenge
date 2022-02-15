@@ -17,6 +17,8 @@ public class baseClass {
 
 	public  ObjectRepository ob;
 	public 	Properties prop;
+	public String Email;
+	public String MobileNum;
 		public baseClass() 
 		{
 			WebDriverManager.chromedriver().setup();
@@ -25,7 +27,7 @@ public class baseClass {
 			driver.get(prop.getProperty("URL"));
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					
+				
 		}
 		
 		public void ReadPropertiesFile() {

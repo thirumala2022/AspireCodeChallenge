@@ -2,135 +2,134 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Business Registration Process--->]]>
+      <![CDATA[Click on Register Link ]]>
+    </line>
+    <line>
+      <![CDATA[Entered Full name of User]]>
+    </line>
+    <line>
+      <![CDATA[Entered Full name of User]]>
+    </line>
+    <line>
+      <![CDATA[Entered NewEmail  QA7764054@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Entered Phone 204104]]>
+    </line>
+    <line>
+      <![CDATA[Entered Hear about us]]>
+    </line>
+    <line>
+      <![CDATA[Entered PrivacyCheck]]>
+    </line>
+    <line>
+      <![CDATA[Click on Continue btn]]>
+    </line>
+    <line>
+      <![CDATA[Enter Mobile OTP]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Registraton success]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png'> <img src='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png' height='100' width='100'/>Screenshot Link</a>]]>
     </line>
     <line>
       <![CDATA[Enter Email field]]>
     </line>
     <line>
-      <![CDATA[Click on Next]]>
-    </line>
-    <line>
-      <![CDATA[Select Business Role]]>
-    </line>
-    <line>
-      <![CDATA[Company Registration Confirmation]]>
-    </line>
-    <line>
-      <![CDATA[Business Role Selection and Aditional details Entry : Process]]>
+      <![CDATA[<a href='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png'> <img src='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png' height='100' width='100'/>Screenshot Link</a>]]>
     </line>
     <line>
       <![CDATA[Enter Email field]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png'> <img src='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png' height='100' width='100'/>Screenshot Link</a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-02-14T11:39:48 IST" name="Default suite" finished-at="2022-02-14T11:42:01 IST" duration-ms="132790">
+  <suite started-at="2022-02-15T10:27:50 IST" name="Suite1" finished-at="2022-02-15T10:29:08 IST" duration-ms="78563">
     <groups>
     </groups>
-    <test started-at="2022-02-14T11:39:48 IST" name="Default test" finished-at="2022-02-14T11:42:01 IST" duration-ms="132790">
-      <class name="TestPackage.BusinessDetailsTest">
-        <test-method signature="BusinessDetailsTest()[pri:0, instance:TestPackage.BusinessDetailsTest@1144a55a]" started-at="2022-02-14T11:39:48 IST" name="BusinessDetailsTest" finished-at="2022-02-14T11:40:59 IST" duration-ms="71548" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='q-checkbox__bg absolute'] (tried for 40 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='q-checkbox__bg absolute'] (tried for 40 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at TestPackage.ObjectRepository.WaitElementExists(ObjectRepository.java:130)
-at TestPackage.ObjectRepository.ClickElement(ObjectRepository.java:66)
-at TestPackage.BusinessDetailsTest.BuisunessRole(BusinessDetailsTest.java:61)
-at TestPackage.BusinessDetailsTest.BusinessDetails(BusinessDetailsTest.java:29)
-at TestPackage.BusinessDetailsTest.BusinessDetailsTest(BusinessDetailsTest.java:23)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='q-checkbox__bg absolute']"}
-  (Session info: chrome=98.0.4758.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57626}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e84e900721ba8bedca2b37677e5f9cc
-*** Element info: {Using=xpath, value=//div[@class='q-checkbox__bg absolute']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+    <test started-at="2022-02-15T10:27:50 IST" name="Test" finished-at="2022-02-15T10:29:08 IST" duration-ms="78563">
+      <class name="TestPackage.RegisterTest">
+        <test-method signature="RegisterNewEmailTest()[pri:0, instance:TestPackage.RegisterTest@3b8ee898]" started-at="2022-02-15T10:27:50 IST" name="RegisterNewEmailTest" finished-at="2022-02-15T10:28:06 IST" duration-ms="16379" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Business Registration Process--->]]>
+              <![CDATA[Click on Register Link ]]>
             </line>
             <line>
-              <![CDATA[Enter Email field]]>
+              <![CDATA[Entered Full name of User]]>
             </line>
             <line>
-              <![CDATA[Click on Next]]>
+              <![CDATA[Entered Full name of User]]>
             </line>
             <line>
-              <![CDATA[Select Business Role]]>
+              <![CDATA[Entered NewEmail  QA7764054@gmail.com]]>
             </line>
             <line>
-              <![CDATA[Company Registration Confirmation]]>
+              <![CDATA[Entered Phone 204104]]>
+            </line>
+            <line>
+              <![CDATA[Entered Hear about us]]>
+            </line>
+            <line>
+              <![CDATA[Entered PrivacyCheck]]>
+            </line>
+            <line>
+              <![CDATA[Click on Continue btn]]>
+            </line>
+            <line>
+              <![CDATA[Enter Mobile OTP]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Registraton success]]>
             </line>
           </reporter-output>
-        </test-method> <!-- BusinessDetailsTest -->
-        <test-method signature="BusinessRoleTest()[pri:0, instance:TestPackage.BusinessDetailsTest@1144a55a]" started-at="2022-02-14T11:40:59 IST" name="BusinessRoleTest" finished-at="2022-02-14T11:42:00 IST" duration-ms="60633" status="FAIL">
+        </test-method> <!-- RegisterNewEmailTest -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestPackage.RegisterTest@3b8ee898]" started-at="2022-02-15T10:28:06 IST" name="screenShot" finished-at="2022-02-15T10:28:06 IST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterNewEmailTest status=SUCCESS method=RegisterTest.RegisterNewEmailTest()[pri:0, instance:TestPackage.RegisterTest@3b8ee898] output=Click on Register Link ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png'> <img src='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png' height='100' width='100'/>Screenshot Link</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="CleanTest()[pri:0, instance:TestPackage.RegisterTest@3b8ee898]" started-at="2022-02-15T10:29:08 IST" name="CleanTest" finished-at="2022-02-15T10:29:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanTest -->
+      </class> <!-- TestPackage.RegisterTest -->
+      <class name="TestPackage.LoginMobileTest">
+        <test-method signature="LoginWithMobileNumValidation(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.LoginMobileTest@bd2f5a9]" started-at="2022-02-15T10:28:07 IST" name="LoginWithMobileNumValidation" data-provider="InputData" finished-at="2022-02-15T10:28:37 IST" duration-ms="30069" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+919090909090]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 5 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 40 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 5 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at TestPackage.ObjectRepository.WaitElementExists(ObjectRepository.java:130)
-at TestPackage.ObjectRepository.Sendtext(ObjectRepository.java:90)
-at TestPackage.BusinessDetailsTest.BuisunessRole(BusinessDetailsTest.java:40)
-at TestPackage.BusinessDetailsTest.BusinessRoleTest(BusinessDetailsTest.java:15)
+at TestPackage.ObjectRepository.WaitElementExists(ObjectRepository.java:156)
+at TestPackage.ObjectRepository.EnterTextAfterClear(ObjectRepository.java:115)
+at TestPackage.LoginMobileTest.LoginWithMobileNumValidation(LoginMobileTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -160,13 +159,13 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
-  (Session info: chrome=98.0.4758.82)
+  (Session info: chrome=98.0.4758.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57626}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e84e900721ba8bedca2b37677e5f9cc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9db3621b34f91d15e46ccc29244370d
 *** Element info: {Using=xpath, value=//input[@name='username']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -185,24 +184,137 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
 at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 32 more
+... 31 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
-              <![CDATA[Business Role Selection and Aditional details Entry : Process]]>
+              <![CDATA[Enter Email field]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithMobileNumValidation -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestPackage.LoginMobileTest@bd2f5a9]" started-at="2022-02-15T10:28:37 IST" name="screenShot" finished-at="2022-02-15T10:28:37 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithMobileNumValidation status=FAILURE method=LoginMobileTest.LoginWithMobileNumValidation(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.LoginMobileTest@bd2f5a9] output=Enter Email field]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png'> <img src='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png' height='100' width='100'/>Screenshot Link</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="LoginWithMobileNumValidation(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.LoginMobileTest@bd2f5a9]" started-at="2022-02-15T10:28:37 IST" name="LoginWithMobileNumValidation" data-provider="InputData" finished-at="2022-02-15T10:29:07 IST" duration-ms="30052" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+6520222022]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='username'] (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at TestPackage.ObjectRepository.WaitElementExists(ObjectRepository.java:156)
+at TestPackage.ObjectRepository.EnterTextAfterClear(ObjectRepository.java:115)
+at TestPackage.LoginMobileTest.LoginWithMobileNumValidation(LoginMobileTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MATN0N1', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\v-tballa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9db3621b34f91d15e46ccc29244370d
+*** Element info: {Using=xpath, value=//input[@name='username']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
             <line>
               <![CDATA[Enter Email field]]>
             </line>
           </reporter-output>
-        </test-method> <!-- BusinessRoleTest -->
-        <test-method signature="InputData()[pri:0, instance:TestPackage.BusinessDetailsTest@1144a55a]" started-at="2022-02-14T11:42:00 IST" name="InputData" finished-at="2022-02-14T11:42:01 IST" duration-ms="555" status="PASS">
+        </test-method> <!-- LoginWithMobileNumValidation -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestPackage.LoginMobileTest@bd2f5a9]" started-at="2022-02-15T10:29:07 IST" name="screenShot" finished-at="2022-02-15T10:29:07 IST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithMobileNumValidation status=FAILURE method=LoginMobileTest.LoginWithMobileNumValidation(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.LoginMobileTest@bd2f5a9] output=Enter Email field]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png'> <img src='C:\AspireQACodeChallenge1202\AspireQACodeChallenge\.\ScreenShots\Image.png' height='100' width='100'/>Screenshot Link</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="CleanTest()[pri:0, instance:TestPackage.LoginMobileTest@bd2f5a9]" started-at="2022-02-15T10:29:07 IST" name="CleanTest" finished-at="2022-02-15T10:29:08 IST" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InputData -->
-      </class> <!-- TestPackage.BusinessDetailsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- CleanTest -->
+      </class> <!-- TestPackage.LoginMobileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
 </testng-results>
